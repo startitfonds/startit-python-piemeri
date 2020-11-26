@@ -8,7 +8,7 @@ from src.audio_mix import atskano, mikse_skanas, saglaba_skanu
 # 2.solis
 # Atrodam un saglabājam audio datni wav formātā
 # Audio datnes var atrast, piemēram, šeit - http://soundbible.com/
-atskano_datni("poker-chips-daniel_simon.wav")
+#atskano_datni("poker-chips-daniel_simon.wav")
 
 # 3.solis
 # Veidojam skaņas tīri matemātiski
@@ -28,3 +28,38 @@ atskano_datni("poker-chips-daniel_simon.wav")
 # saglabajam skaņu datnē
 # skana = mikse_skanas("dati/clock-chimes-daniel_simon.wav")
 # saglaba_skanu(skana, "dati/zvani.wav")
+
+# Mana melodija
+# Veidojam skaņas tīri matemātiski
+beep(261.63, 1)     #DO
+beep(293.66, 1)#RE
+beep(327.03, 1)    # MI
+beep(348.83, 1)    # FA
+beep(392.44, 1)    # SOL
+beep(327.03, 1)    # MI
+beep(261.63, 1)     #DO
+beep(327.03, 1)    # MI
+beep(392.44, 2)    # SOL
+beep(436.04, 2)    # LA
+beep(392.44, 1)    # SOL
+beep(327.03, 1)    # MI
+beep(261.63, 2)     #DO
+
+#beep(436.04, 1)    # LA
+#beep(490.55, 1)    # SI
+#beep(392.44, 1)    # SOL
+#beep(327.03, 1)    # MI
+#beep(392.44, 1)    # SOL
+#beep(436.04, 1)    # LA
+#beep(490.55, 1)    # SI
+#beep(523.25, 1)    # DO
+
+
+
+#beep(327.03, 1)    # MI
+#beep(348.83, 1)    # FA
+#beep(392.44, 1)    # SOL
+#beep(436.04, 1)    # LA
+#beep(490.55, 1)    # SI
+#beep(523.25, 1)    # DO
+#beep()             # Noklusētā frekvence un ilgums
